@@ -27,7 +27,6 @@
                    to: 180 0 0; 
                    dur: 3000; 
                    easing: easeInOutElastic; 
-                  
                    loop: true" 
                    
                    >
@@ -39,7 +38,14 @@
         height="1" 
         depth="1" 
         material="src: #wood2"
-        shadow>  
+        shadow
+        animation="property: rotation; 
+        to: 0 100 0; 
+        dur: 3000; 
+        easing: 	easeInOutCirc; 
+        loop: true" 
+        
+        >  
       </a-box>
       <a-plane id="ground"
         position="0 0 -4" 
